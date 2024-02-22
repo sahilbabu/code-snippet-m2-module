@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Created by eGooTY - https://egooty.com
+ *
+ * @author      Mudassar Ali <sahil_bwp@yahoo.com>
+ * @author      eGooTY <dev@egooty.com>
+ * @copyright   Copyright (c) eGooTY Pvt. (https://egooty.com)
+ * @license     https://egooty.com/source-legal-information/ eGooTY End User License Agreement
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Egooty_SeoToolkits">
+        <sequence>
+            <module name="Egooty_Core" />
+            <module name="Magento_Catalog" />
+            <module name="Magento_Cms" />
+            <module name="Magento_Store" />
+            <module name="Hyva_CompatModuleFallback"/>
+        </sequence>
+    </module>
+</config>

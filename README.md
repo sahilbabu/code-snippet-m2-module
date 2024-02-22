@@ -1,2 +1,2 @@
 # code-snippet-m2-module
-Sample code snippet
+Sample m2 code snippet

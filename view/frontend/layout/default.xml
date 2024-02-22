@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Created by eGooTY - https://egooty.com
+ *
+ * @author      Mudassar Ali <sahil_bwp@yahoo.com>
+ * @author      eGooTY <dev@egooty.com>
+ * @copyright   Copyright (c) eGooTY Pvt. (https://egooty.com)
+ * @license     https://egooty.com/source-legal-information/ eGooTY End User License Agreement
+ */
+ -->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="head.additional">
+            <block
+                class="Magento\Framework\View\Element\Template"
+                name="magento.framework.view.element.template"
+                template="Egooty_SeoToolkits::html/header/hreflang-links.phtml">
+                <arguments>
+                    <argument name="priority" xsi:type="string">10</argument>
+                    <argument name="hreflang_data" xsi:type="object">
+                        Egooty\SeoToolkits\ViewModel\Html\Header\HreflangData
+                    </argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+    </body>
+</page>
